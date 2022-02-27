@@ -1,0 +1,4 @@
+.idea/
+vendor/
+/magento*
+.phpunit.result.cache

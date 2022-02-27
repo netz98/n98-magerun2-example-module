@@ -1,0 +1,42 @@
+{
+  "name": "n98/magerun-example-module",
+  "description": "Example module which adds some dummy commands.",
+  "type": "library",
+  "keywords": [
+    "n98-magerun2",
+    "magerun2",
+    "example",
+    "module"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "netz98 GmbH",
+      "email": "magento@netz98.de"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "N98\\MagerunExample\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "N98\\MagerunExample\\Test\\": "tests"
+    }
+  },
+  "require": {
+    "php": "^7.4"
+  },
+  "require-dev": {
+    "n98/magerun2": "^4",
+    "n98/magerun2-test-framework": "^2",
+    "phpunit/phpunit": "^9"
+  },
+  "config": {
+    "platform": {
+      "php": "7.4.0"
+    },
+    "sort-packages": true
+  }
+}
