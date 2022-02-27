@@ -1,4 +1,6 @@
-# Example n98-magerun2 Module
+# Example n98-magerun2 Module 
+
+![n98-magerun Logo](.github/doc/magerun-logo.png)
 
 This example contains:
 
