@@ -4,3 +4,8 @@ autoloaders_psr4:
 commands:
   customCommands:
     - 'N98\MagerunExample\Command\MakeSomethingCommand'
+
+
+  N98\Magento\Command\Developer\ConsoleCommand:
+    commands:
+      - 'N98\MagerunExample\Command\DevConsole\MyCustomDevConsoleCommand'
